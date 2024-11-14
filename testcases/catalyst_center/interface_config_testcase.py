@@ -116,7 +116,7 @@ if __name__ == "__main__":
 
     # define your devices as a tuple or a list using the "uuid" of the network device
     devices = ("a29650a1-bca7-4913-8b02-7474f0e8215c", "85ce77aa-3627-4d69-99ea-085d700cbd0f", "f2ee94ae-c1f7-4114-9a00-a4348240204f")
-    # devices = os.getenv("DNAC_CATALYST_ID").split(",")
+    # devices = os.getenv("DNAC_CATALYST_IDS").split(",")
 
     # define the interfaces to be targeted in one string, separated by commas
     interfaces="GigabitEthernet1/0/1,GigabitEthernet1/0/2,GigabitEthernet1/0/3"
