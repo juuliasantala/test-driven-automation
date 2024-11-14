@@ -1,0 +1,17 @@
+---
+testbed:
+    name: My testbed
+devices:
+    switch:
+        connections:
+            cli:
+                ip: "%ENV{IOSXE_HOST}"
+                protocol: ssh
+        credentials:
+            default:
+                password: "%ENV{IOSXE_PASSWORD}"
+                username: "%ENV{IOSXE_USERNAME}"
+            enable:
+                password: "%ENV{IOSXE_PASSWORD}"
+        os: iosxe
+        type: iosxe
